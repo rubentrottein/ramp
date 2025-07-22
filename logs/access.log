@@ -1047,3 +1047,60 @@
 ::1 - - [23/Jul/2025:00:33:03 +0200] "GET /css/sqlite_styles.css HTTP/1.1" 304 -
 ::1 - - [23/Jul/2025:00:33:05 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db HTTP/1.1" 200 2090
 ::1 - - [23/Jul/2025:00:34:03 +0200] "-" 408 -
+::1 - - [23/Jul/2025:00:49:36 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db HTTP/1.1" 200 1492
+::1 - - [23/Jul/2025:00:49:36 +0200] "GET /css/style.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:00:49:39 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 5093
+::1 - - [23/Jul/2025:00:49:40 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1973
+::1 - - [23/Jul/2025:00:49:42 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 5093
+::1 - - [23/Jul/2025:00:49:43 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1973
+::1 - - [23/Jul/2025:00:49:45 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 5093
+::1 - - [23/Jul/2025:00:49:46 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1973
+::1 - - [23/Jul/2025:00:49:47 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 5093
+::1 - - [23/Jul/2025:00:49:48 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1973
+::1 - - [23/Jul/2025:00:49:49 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 5093
+::1 - - [23/Jul/2025:00:49:51 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1973
+::1 - - [23/Jul/2025:00:50:36 +0200] "-" 408 -
+::1 - - [23/Jul/2025:00:53:26 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1917
+::1 - - [23/Jul/2025:00:53:27 +0200] "GET /css/sqlite_styles.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:00:53:29 +0200] "GET /sqlite.php?db=databases%2Fother_db.db HTTP/1.1" 200 752
+::1 - - [23/Jul/2025:00:53:32 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 2981
+::1 - - [23/Jul/2025:00:53:34 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 1917
+::1 - - [23/Jul/2025:00:53:35 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 2981
+::1 - - [23/Jul/2025:00:54:26 +0200] "-" 408 -
+::1 - - [23/Jul/2025:00:56:26 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 7646
+::1 - - [23/Jul/2025:00:56:26 +0200] "GET /css/sqlite_styles.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:00:56:29 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 2670
+::1 - - [23/Jul/2025:00:56:30 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 7646
+::1 - - [23/Jul/2025:00:57:03 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 2670
+::1 - - [23/Jul/2025:00:57:04 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 7646
+::1 - - [23/Jul/2025:00:58:03 +0200] "-" 408 -
+::1 - - [23/Jul/2025:01:01:07 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 7771
+::1 - - [23/Jul/2025:01:01:07 +0200] "GET /css/sqlite_styles.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:01:01:10 +0200] "GET /sqlite_admin.php HTTP/1.1" 200 7337
+::1 - - [23/Jul/2025:01:01:17 +0200] "GET /sqlite_admin.php?db=databases%2Fother_db.db HTTP/1.1" 200 751
+::1 - - [23/Jul/2025:01:01:59 +0200] "POST /sqlite_admin.php HTTP/1.1" 200 9660
+::1 - - [23/Jul/2025:01:02:29 +0200] "POST /sqlite_admin.php HTTP/1.1" 200 8474
+::1 - - [23/Jul/2025:01:03:29 +0200] "-" 408 -
+::1 - - [23/Jul/2025:01:04:30 +0200] "GET /sqlite.php HTTP/1.1" 200 9378
+::1 - - [23/Jul/2025:01:04:30 +0200] "GET /css/sqlite_styles.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:01:04:41 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 15112
+::1 - - [23/Jul/2025:01:04:49 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=sqlite_sequence HTTP/1.1" 200 6653
+::1 - - [23/Jul/2025:01:05:10 +0200] "GET /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 15112
+::1 - - [23/Jul/2025:01:05:27 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 17435
+::1 - - [23/Jul/2025:01:05:59 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 16349
+::1 - - [23/Jul/2025:01:06:08 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 16349
+::1 - - [23/Jul/2025:01:06:40 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 11399
+::1 - - [23/Jul/2025:01:06:53 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 11399
+::1 - - [23/Jul/2025:01:07:19 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 11332
+::1 - - [23/Jul/2025:01:07:19 +0200] "GET /css/style.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:01:08:05 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 11336
+::1 - - [23/Jul/2025:01:08:05 +0200] "GET /css/sqlite_styles.css HTTP/1.1" 304 -
+::1 - - [23/Jul/2025:01:09:05 +0200] "-" 408 -
+::1 - - [23/Jul/2025:01:09:58 +0200] "POST /sqlite.php?db=databases%2Ftodolist.db&table=tasks HTTP/1.1" 200 10082
+::1 - - [23/Jul/2025:01:10:58 +0200] "-" 408 -
+::1 - - [23/Jul/2025:01:14:58 +0200] "GET / HTTP/1.1" 200 4334
+::1 - - [23/Jul/2025:01:14:58 +0200] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [23/Jul/2025:01:15:11 +0200] "GET /index.html HTTP/1.1" 200 612
+::1 - - [23/Jul/2025:01:15:11 +0200] "GET /styles.css HTTP/1.1" 200 1669
+::1 - - [23/Jul/2025:01:15:11 +0200] "GET /script.js HTTP/1.1" 404 196
+::1 - - [23/Jul/2025:01:15:11 +0200] "GET /script.js HTTP/1.1" 404 196

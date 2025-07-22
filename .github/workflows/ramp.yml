@@ -1,0 +1,48 @@
+name: CI/CD - RAMP Server
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  release:
+    types: [created]
+
+jobs:
+  test-and-release:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: cmd
+
+    steps:
+      - name: 🧾 Cloner le repo
+        uses: actions/checkout@v4
+
+      - name: 📂 Lister les fichiers
+        run: dir
+
+      - name: 🧪 Lancer le serveur
+        run: start_server.bat
+
+      - name: ⏱️ Attendre le démarrage (5 sec)
+        run: timeout /t 5
+
+      - name: 🌐 Tester localhost
+        run: curl http://localhost || echo "⚠️ Le serveur n’a pas répondu"
+
+      - name: 🧹 Arrêter le serveur
+        run: stop_server.bat
+
+      - name: 🔍 Analyse syntaxique PHP
+        run: |
+          for /R %%f in (*.php) do php -l "%%f"
+
+      - name: 📦 Zipper le projet
+        run: powershell -Command "Compress-Archive -Path * -DestinationPath ramp-release.zip"
+
+      - name: 🚀 Publier la release (si tag)
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ramp-release.zip
