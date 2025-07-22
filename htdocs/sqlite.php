@@ -1,138 +1,87 @@
-<?php include('header.php'); ?>
+<?php
+include('inc/header.php');
+include('inc/sqlite_utils.php');
+?>
 <link rel="stylesheet" href="css/sqlite_styles.css">
 
 <main>
-    <h2> Lister toutes les tables </h2>
+    <h1>Interface d'administration SQLite</h1>
+
     <?php
-    // choisir la base de données 
-    $databases = [
-        'todolist' => 'databases/todolist.db',
-        'other_db' => 'databases/other_db.db', // Add more databases as needed
-    ];
+    $databases = getAvailableDatabases();
+    $currentDb = $_GET['db'] ?? $databases['todolist'];
+
+    $db = connectToDatabase($currentDb);
+    $tables = getTables($db);
     ?>
-    <select name="databases" id="databases">
-        <?php foreach ($databases as $name => $path): ?>
-            <option value="<?php echo htmlspecialchars($path); ?>"><?php echo htmlspecialchars($name); ?></option>
-        <?php endforeach; ?>
-    </select>
-    <button id="load-tables">Charger les tables</button>
-    <script>
-        document.getElementById('load-tables').addEventListener('click', function() {
-            const dbPath = document.getElementById('databases').value;
-            window.location.href = 'sqlite.php?db=' + encodeURIComponent(dbPath);
-        });
-    </script>
 
+    <!-- Choix de la base -->
+    <form method="get">
+        <label for="databases">Choisir une base :</label>
+        <select name="db" id="databases" onchange="this.form.submit()">
+            <?php foreach ($databases as $name => $path): ?>
+                <option value="<?= htmlspecialchars($path) ?>" <?= $path === $currentDb ? 'selected' : '' ?>>
+                    <?= htmlspecialchars($name) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+    </form>
 
+    <!-- Liste des tables -->
     <section>
-
-        <h2>Visualisateur de table</h2>
-        
-        <?php
-
-            $dbPath = isset($_GET['db']) ? $_GET['db'] : 'databases/todolist.db';
-            if (!file_exists($dbPath)) {
-                die("Database not found: $dbPath");
-            }
-            $db = new SQLite3($dbPath);
-            if (!$db) {
-                die("Could not connect to the database.");
-            }
-
-            echo "<h3>Tables dans la base de données :</h3>";
-
-            $tables = $db->query("SELECT name FROM sqlite_master WHERE type='table'");
-            echo "<article class='tables-list'>";
-            while ($table = $tables->fetchArray(SQLITE3_ASSOC)) {
-                echo "<a href='?table=" . htmlspecialchars($table['name']) . "'>" . htmlspecialchars($table['name']) . "</a>";
-            }
-            echo "</article>";
-            //close the database connection
-            function db_close($db) {
-                if ($db) {
-                    $db->close();
-                }
-            }
-        ?>
-        <?php
-            $tables = [];
-            $res = $db->query("SELECT name FROM sqlite_master WHERE type='table'");
-            while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
-                $tables[] = $row['name'];
-            }
-        ?>
-        <h3>AnyTable</h3>
-        <article class="beans-list">
-            <p>Choisissez une table pour afficher son contenu :</p>
-            
-            <?php
-                $table = $_GET['table'] ?? 'tasks';
-                $res = $db->query("PRAGMA table_info($table)");
-                while ($col = $res->fetchArray(SQLITE3_ASSOC)) {
-                    echo "<span class='column-name'>" . htmlspecialchars($col['name']) . "</span> ";
-                }
-
-                $res = $db->query("SELECT * FROM $table LIMIT 100");
-                while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
-                    // Affiche les lignes
-                }
-                ?>
+        <h3>Tables disponibles</h3>
+        <article class="tables-list">
+            <?php foreach ($tables as $t): ?>
+                <a href="sqlite.php?db=<?= urlencode($currentDb) ?>&table=<?= urlencode($t) ?>">
+                    <?= htmlspecialchars($t) ?>
+                </a>
+            <?php endforeach; ?>
         </article>
     </section>
-        
-    <section>
-        <h2>Table : <?= $table ?></h2>
+
+    <!-- Affichage d'une table -->
+    <?php if (!empty($_GET['table'])): ?>
         <?php
-            $dbPath = __DIR__ . '/databases/todolist.db';
+        $table = $_GET['table'];
 
-            if (!file_exists($dbPath)) {
-                die("❌ Base de données introuvable : $dbPath");
-            }
+        if (!in_array($table, $tables)) {
+            echo "<p>❌ Table inconnue.</p>";
+        } else {
+            $columns = getColumns($db, $table);
+            $rows = getTableData($db, $table);
+        ?>
+        <section>
+            <h2>Table : <?= htmlspecialchars($table) ?></h2>
+            <?php if (empty($columns)): ?>
+                <p>⚠️ Aucune colonne trouvée.</p>
+            <?php else: ?>
+                <table border="1" cellpadding="8">
+                    <tr>
+                        <?php foreach ($columns as $col): ?>
+                            <th><?= htmlspecialchars($col) ?></th>
+                        <?php endforeach; ?>
+                    </tr>
+                    <?php while ($row = $rows->fetchArray(SQLITE3_ASSOC)): ?>
+                        <tr>
+                            <?php foreach ($columns as $col): ?>
+                                <?php
+                                    $value = $row[$col];
+                                    if (in_array(strtolower($col), ['completed', 'done', 'active']) && is_numeric($value)) {
+                                        $value = $value ? '✔️' : '❌';
+                                    }
+                                ?>
+                                <td><?= htmlspecialchars($value) ?></td>
+                            <?php endforeach; ?>
+                        </tr>
+                    <?php endwhile; ?>
+                </table>
+            <?php endif; ?>
+        </section>
+        <?php } ?>
+    <?php endif; ?>
 
-            $db = new SQLite3($dbPath);
-
-            // Table cible
-            $table = $_GET['table'] ?? 'tasks';
-
-            // Récupère les colonnes dynamiquement
-            $columns = [];
-            $res = $db->query("PRAGMA table_info($table)");
-            while ($col = $res->fetchArray(SQLITE3_ASSOC)) {
-                $columns[] = $col['name'];
-            }
-
-            // Requête principale
-            $result = $db->query("SELECT * FROM $table ORDER BY ROWID DESC");
-
-            // Affichage du tableau
-            echo "<table border='1' cellpadding='8'>";
-            echo "<tr>";
-            foreach ($columns as $col) {
-                echo "<th>" . htmlspecialchars($col) . "</th>";
-            }
-            echo "</tr>";
-
-            // Données
-            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-                echo "<tr>";
-                foreach ($columns as $col) {
-                    $value = $row[$col];
-
-                    // Formatage pour colonnes booléennes
-                    if (in_array(strtolower($col), ['completed', 'done', 'active']) && is_numeric($value)) {
-                        $value = $value ? '✔️' : '❌';
-                    }
-
-                    echo "<td>" . htmlspecialchars($value) . "</td>";
-                }
-                echo "</tr>";
-            }
-            echo "</table>";
-
-            $db->close();
-            ?>
-
-    </section>
+    <?php include('sqlite_admin.php'); ?>
+    <?php $db->close(); ?>
 </main>
 
-<?php include('footer.php'); ?>
+<?php include('inc/footer.php'); ?>

@@ -1,37 +1,18 @@
 <?php
-$dbPath = __DIR__ . '/databases/todolist.db';
-
-if (!file_exists($dbPath)) {
-    die("❌ Base de données introuvable à : $dbPath");
-}
-
-$db = new SQLite3($dbPath);
-
-// Liste des tables
-$tables = [];
-$res = $db->query("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name ASC");
-while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
-    $tables[] = $row['name'];
-}
-
-// Table sélectionnée
 $selectedTable = $_GET['table'] ?? ($tables[0] ?? null);
+
+// Colonnes et données
 $columns = [];
 $rows = [];
-
-if ($selectedTable) {
-    $colRes = $db->query("PRAGMA table_info($selectedTable)");
-    while ($col = $colRes->fetchArray(SQLITE3_ASSOC)) {
-        $columns[] = $col['name'];
-    }
-
-    $dataRes = $db->query("SELECT * FROM $selectedTable LIMIT 100");
-    while ($row = $dataRes->fetchArray(SQLITE3_ASSOC)) {
+if ($selectedTable && in_array($selectedTable, $tables)) {
+    $columns = getColumns($db, $selectedTable);
+    $res = getTableData($db, $selectedTable);
+    while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
         $rows[] = $row;
     }
 }
 
-// Traitement de requête SQL manuelle
+// Requête SQL manuelle
 $queryResult = null;
 $errorMessage = '';
 if (!empty($_POST['sql_query'])) {
@@ -55,114 +36,36 @@ if (!empty($_POST['sql_query'])) {
 $db->close();
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Admin SQLite - Visualisateur</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f6fa;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .tables-list {
-            margin-bottom: 20px;
-        }
-        .tables-list a {
-            margin-right: 10px;
-            text-decoration: none;
-            color: #007bff;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-bottom: 40px;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 6px 10px;
-        }
-        th {
-            background: #e9ecef;
-        }
-        .sql-box {
-            margin-bottom: 30px;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #ccc;
-        }
-        textarea {
-            width: 100%;
-            height: 80px;
-            font-family: monospace;
-            margin-bottom: 10px;
-        }
-        .error { color: red; }
-        .success { color: green; }
-    </style>
-</head>
-<body>
-    <h1>🛠️ Admin SQLite</h1>
+<section class="sql-box">
+    <h2>🧪 Requête SQL manuelle</h2>
+    <?php if ($errorMessage): ?>
+        <p class="error"><?= htmlspecialchars($errorMessage) ?></p>
+    <?php elseif (is_string($queryResult)): ?>
+        <p class="success"><?= htmlspecialchars($queryResult) ?></p>
+    <?php endif; ?>
 
-    <div class="tables-list">
-        <strong>Tables disponibles :</strong><br>
-        <?php foreach ($tables as $table): ?>
-            <a href="?table=<?= urlencode($table) ?>"><?= htmlspecialchars($table) ?></a>
-        <?php endforeach; ?>
-    </div>
+    <form method="post">
+        <textarea name="sql_query" placeholder="Ex: SELECT * FROM tasks;"></textarea><br>
+        <button type="submit">Exécuter</button>
+    </form>
 
-    <?php if ($selectedTable): ?>
-        <h2>📋 Table : <?= htmlspecialchars($selectedTable) ?></h2>
+    <?php if (is_array($queryResult)): ?>
+        <h3>Résultats :</h3>
         <table>
             <tr>
-                <?php foreach ($columns as $col): ?>
+                <?php foreach (array_keys($queryResult[0] ?? []) as $col): ?>
                     <th><?= htmlspecialchars($col) ?></th>
                 <?php endforeach; ?>
             </tr>
-            <?php foreach ($rows as $row): ?>
+            <?php foreach ($queryResult as $row): ?>
                 <tr>
-                    <?php foreach ($columns as $col): ?>
-                        <td><?= htmlspecialchars($row[$col] ?? '') ?></td>
+                    <?php foreach ($row as $val): ?>
+                        <td><?= htmlspecialchars($val) ?></td>
                     <?php endforeach; ?>
                 </tr>
             <?php endforeach; ?>
         </table>
     <?php endif; ?>
+</section>
 
-    <div class="sql-box">
-        <h2>🧪 Exécuter une requête SQL</h2>
-        <?php if ($errorMessage): ?>
-            <p class="error"><?= htmlspecialchars($errorMessage) ?></p>
-        <?php endif; ?>
-        <?php if (is_string($queryResult)): ?>
-            <p class="success"><?= htmlspecialchars($queryResult) ?></p>
-        <?php endif; ?>
-        <form method="POST">
-            <textarea name="sql_query" placeholder="Ex: SELECT * FROM tasks;"></textarea>
-            <button type="submit">Exécuter</button>
-        </form>
-
-        <?php if (is_array($queryResult)): ?>
-            <h3>Résultat :</h3>
-            <table>
-                <tr>
-                    <?php foreach (array_keys($queryResult[0] ?? []) as $col): ?>
-                        <th><?= htmlspecialchars($col) ?></th>
-                    <?php endforeach; ?>
-                </tr>
-                <?php foreach ($queryResult as $row): ?>
-                    <tr>
-                        <?php foreach ($row as $cell): ?>
-                            <td><?= htmlspecialchars($cell) ?></td>
-                        <?php endforeach; ?>
-                    </tr>
-                <?php endforeach; ?>
-            </table>
-        <?php endif; ?>
-    </div>
-</body>
-</html>
+   

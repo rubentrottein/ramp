@@ -15,5 +15,8 @@
             <a href="test.php">PHP Test</a>
             <a href="sqlite.php">SQLite3 Test</a>
             <a href="todo.php">Todo List</a>
+            <a href="sqlite_admin.php">SQLite3 Admin</a>
+            <a href="sqlite_old.php">SQLite Old</a>
+            
         </nav>
     </header>
