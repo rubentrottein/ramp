@@ -1,0 +1,98 @@
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: C:/Apache24/php/ext\json (Le module spécifié est introuvable), C:/Apache24/php/ext\php_json.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'session' (tried: C:/Apache24/php/ext\session (Le module spécifié est introuvable), C:/Apache24/php/ext\php_session.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'filter' (tried: C:/Apache24/php/ext\filter (Le module spécifié est introuvable), C:/Apache24/php/ext\php_filter.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'hash' (tried: C:/Apache24/php/ext\hash (Le module spécifié est introuvable), C:/Apache24/php/ext\php_hash.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: C:/Apache24/php/ext\ctype (Le module spécifié est introuvable), C:/Apache24/php/ext\php_ctype.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: C:/Apache24/php/ext\tokenizer (Le module spécifié est introuvable), C:/Apache24/php/ext\php_tokenizer.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: C:/Apache24/php/ext\xml (Le module spécifié est introuvable), C:/Apache24/php/ext\php_xml.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: C:/Apache24/php/ext\simplexml (Le module spécifié est introuvable), C:/Apache24/php/ext\php_simplexml.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: C:/Apache24/php/ext\xmlreader (Le module spécifié est introuvable), C:/Apache24/php/ext\php_xmlreader.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: C:/Apache24/php/ext\xmlwriter (Le module spécifié est introuvable), C:/Apache24/php/ext\php_xmlwriter.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'dom' (tried: C:/Apache24/php/ext\dom (Le module spécifié est introuvable), C:/Apache24/php/ext\php_dom.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: C:/Apache24/php/ext\json (Le module spécifié est introuvable), C:/Apache24/php/ext\php_json.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'session' (tried: C:/Apache24/php/ext\session (Le module spécifié est introuvable), C:/Apache24/php/ext\php_session.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'filter' (tried: C:/Apache24/php/ext\filter (Le module spécifié est introuvable), C:/Apache24/php/ext\php_filter.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'hash' (tried: C:/Apache24/php/ext\hash (Le module spécifié est introuvable), C:/Apache24/php/ext\php_hash.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: C:/Apache24/php/ext\ctype (Le module spécifié est introuvable), C:/Apache24/php/ext\php_ctype.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: C:/Apache24/php/ext\tokenizer (Le module spécifié est introuvable), C:/Apache24/php/ext\php_tokenizer.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: C:/Apache24/php/ext\xml (Le module spécifié est introuvable), C:/Apache24/php/ext\php_xml.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: C:/Apache24/php/ext\simplexml (Le module spécifié est introuvable), C:/Apache24/php/ext\php_simplexml.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: C:/Apache24/php/ext\xmlreader (Le module spécifié est introuvable), C:/Apache24/php/ext\php_xmlreader.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: C:/Apache24/php/ext\xmlwriter (Le module spécifié est introuvable), C:/Apache24/php/ext\php_xmlwriter.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 18:22:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'dom' (tried: C:/Apache24/php/ext\dom (Le module spécifié est introuvable), C:/Apache24/php/ext\php_dom.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[22-Jul-2025 20:24:32 Europe/Paris] PHP Fatal error:  Uncaught mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Apache24\htdocs\index.php:76
+Stack trace:
+#0 C:\Apache24\htdocs\index.php(76): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue))
+#1 {main}
+  thrown in C:\Apache24\htdocs\index.php on line 76
+[22-Jul-2025 20:24:44 Europe/Paris] PHP Fatal error:  Uncaught mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Apache24\htdocs\index.php:76
+Stack trace:
+#0 C:\Apache24\htdocs\index.php(76): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue))
+#1 {main}
+  thrown in C:\Apache24\htdocs\index.php on line 76
+[22-Jul-2025 20:24:46 Europe/Paris] PHP Fatal error:  Uncaught mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Apache24\htdocs\index.php:76
+Stack trace:
+#0 C:\Apache24\htdocs\index.php(76): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue))
+#1 {main}
+  thrown in C:\Apache24\htdocs\index.php on line 76
+[22-Jul-2025 20:31:04 Europe/Paris] PHP Fatal error:  Uncaught mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Apache24\htdocs\index.php:79
+Stack trace:
+#0 C:\Apache24\htdocs\index.php(79): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue))
+#1 {main}
+  thrown in C:\Apache24\htdocs\index.php on line 79
+[22-Jul-2025 20:59:39 Europe/Paris] PHP Warning:  Undefined variable $db in C:\Apache24\htdocs\sqlite.php on line 16
+[22-Jul-2025 20:59:39 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Apache24\htdocs\sqlite.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 16
+[22-Jul-2025 21:07:02 Europe/Paris] PHP Warning:  Undefined variable $db in C:\Apache24\htdocs\sqlite.php on line 16
+[22-Jul-2025 21:07:02 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Apache24\htdocs\sqlite.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 16
+[22-Jul-2025 21:11:03 Europe/Paris] PHP Fatal error:  Uncaught Error: The SQLite3 object has not been correctly initialised or is already closed in C:\Apache24\htdocs\sqlite.php:39
+Stack trace:
+#0 C:\Apache24\htdocs\sqlite.php(39): SQLite3->query('SELECT name FRO...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 39
+[22-Jul-2025 21:13:30 Europe/Paris] PHP Fatal error:  Uncaught Error: The SQLite3 object has not been correctly initialised or is already closed in C:\Apache24\htdocs\sqlite.php:38
+Stack trace:
+#0 C:\Apache24\htdocs\sqlite.php(38): SQLite3->query('SELECT name FRO...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 38
+[23-Jul-2025 00:10:12 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 51
+[23-Jul-2025 00:10:12 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 74
+[23-Jul-2025 00:10:12 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 95
+[23-Jul-2025 00:10:12 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 118
+[23-Jul-2025 00:11:41 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 51
+[23-Jul-2025 00:11:41 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 74
+[23-Jul-2025 00:11:41 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 95
+[23-Jul-2025 00:11:41 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 118
+[23-Jul-2025 00:16:19 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 51
+[23-Jul-2025 00:16:19 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 74
+[23-Jul-2025 00:16:19 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 95
+[23-Jul-2025 00:16:19 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 118
+[23-Jul-2025 00:16:47 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 51
+[23-Jul-2025 00:16:47 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 74
+[23-Jul-2025 00:16:47 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 95
+[23-Jul-2025 00:16:47 Europe/Paris] PHP Warning:  Undefined variable $dbPath in C:\Apache24\htdocs\sqlite.php on line 118
+[23-Jul-2025 00:25:41 Europe/Paris] PHP Warning:  SQLite3::query(): Unable to prepare statement: no such column: created_at in C:\Apache24\htdocs\sqlite.php on line 98
+[23-Jul-2025 00:25:41 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on false in C:\Apache24\htdocs\sqlite.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 103
+[23-Jul-2025 00:25:43 Europe/Paris] PHP Warning:  SQLite3::query(): Unable to prepare statement: no such column: created_at in C:\Apache24\htdocs\sqlite.php on line 98
+[23-Jul-2025 00:25:43 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on false in C:\Apache24\htdocs\sqlite.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 103
+[23-Jul-2025 00:25:46 Europe/Paris] PHP Warning:  SQLite3::query(): Unable to prepare statement: no such column: created_at in C:\Apache24\htdocs\sqlite.php on line 98
+[23-Jul-2025 00:25:46 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on false in C:\Apache24\htdocs\sqlite.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 103
+[23-Jul-2025 00:25:56 Europe/Paris] PHP Warning:  SQLite3::query(): Unable to prepare statement: no such column: created_at in C:\Apache24\htdocs\sqlite.php on line 98
+[23-Jul-2025 00:25:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on false in C:\Apache24\htdocs\sqlite.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\sqlite.php on line 103

@@ -1,0 +1,639 @@
+[Thu Jul 17 15:28:24.632879 2025] [mpm_winnt:notice] [pid 28152:tid 436] AH00455: Apache/2.4.64 (Win64) configured -- resuming normal operations
+[Thu Jul 17 15:28:24.633878 2025] [mpm_winnt:notice] [pid 28152:tid 436] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Thu Jul 17 15:28:24.633878 2025] [core:notice] [pid 28152:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jul 17 15:28:24.641924 2025] [mpm_winnt:notice] [pid 28152:tid 436] AH00418: Parent: Created child process 4964
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 4964:tid 416] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 17 15:30:26.309239 2025] [mpm_winnt:notice] [pid 28152:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 17 15:30:46.769171 2025] [mpm_winnt:notice] [pid 4964:tid 416] AH00364: Child: All worker threads have exited.
+[Thu Jul 17 15:30:46.854040 2025] [mpm_winnt:notice] [pid 28152:tid 436] AH00430: Parent: Child process 4964 exited successfully.
+[Thu Jul 17 15:41:37.247944 2025] [mpm_winnt:notice] [pid 32648:tid 428] AH00455: Apache/2.4.64 (Win64) configured -- resuming normal operations
+[Thu Jul 17 15:41:37.248943 2025] [mpm_winnt:notice] [pid 32648:tid 428] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Thu Jul 17 15:41:37.248943 2025] [core:notice] [pid 32648:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jul 17 15:41:37.251977 2025] [mpm_winnt:notice] [pid 32648:tid 428] AH00418: Parent: Created child process 4788
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 4788:tid 416] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 17 15:41:41.884826 2025] [mpm_winnt:notice] [pid 32648:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 17 15:41:43.903267 2025] [mpm_winnt:notice] [pid 4788:tid 416] AH00364: Child: All worker threads have exited.
+[Thu Jul 17 15:41:43.923465 2025] [mpm_winnt:notice] [pid 32648:tid 428] AH00430: Parent: Child process 4788 exited successfully.
+[Thu Jul 17 15:42:06.963130 2025] [mpm_winnt:notice] [pid 36652:tid 412] AH00455: Apache/2.4.64 (Win64) configured -- resuming normal operations
+[Thu Jul 17 15:42:06.966130 2025] [mpm_winnt:notice] [pid 36652:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Thu Jul 17 15:42:06.966130 2025] [core:notice] [pid 36652:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jul 17 15:42:06.971129 2025] [mpm_winnt:notice] [pid 36652:tid 412] AH00418: Parent: Created child process 30788
+[Thu Jul 17 15:42:07.790062 2025] [mpm_winnt:notice] [pid 30788:tid 440] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+[Tue Jul 22 00:19:56.278259 2025] [mpm_winnt:crit] [pid 30788:tid 440] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jul 22 00:19:56.287267 2025] [mpm_winnt:warn] [pid 30788:tid 672] (OS 995)LÅfoperation dÅfentree/sortie a ete abandonnee en raison de lÅfarret dÅfun thread ou a la demande dÅfune application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jul 22 00:19:56.287267 2025] [mpm_winnt:warn] [pid 30788:tid 1444] (OS 995)LÅfoperation dÅfentree/sortie a ete abandonnee en raison de lÅfarret dÅfun thread ou a la demande dÅfune application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jul 22 00:19:58.304072 2025] [mpm_winnt:notice] [pid 30788:tid 440] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 00:20:02.700365 2025] [core:warn] [pid 49224:tid 420] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 22 00:20:02.767403 2025] [mpm_winnt:notice] [pid 49224:tid 420] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 00:20:02.767403 2025] [mpm_winnt:notice] [pid 49224:tid 420] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 00:20:02.767403 2025] [core:notice] [pid 49224:tid 420] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Jul 22 00:20:02.773366 2025] [mpm_winnt:notice] [pid 49224:tid 420] AH00418: Parent: Created child process 22080
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 22080:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 00:47:30.222674 2025] [php:error] [pid 22080:tid 1296] [client 127.0.0.1:58119] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:48:38.240133 2025] [mpm_winnt:notice] [pid 49224:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 00:48:40.265216 2025] [mpm_winnt:notice] [pid 22080:tid 436] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 00:48:40.288194 2025] [mpm_winnt:notice] [pid 49224:tid 420] AH00430: Parent: Child process 22080 exited successfully.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 00:48:58.057690 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 00:48:58.057690 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 00:48:58.057690 2025] [core:notice] [pid 25276:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 00:48:58.062691 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00418: Parent: Created child process 33028
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 00:48:58.763696 2025] [mpm_winnt:notice] [pid 33028:tid 440] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 00:49:02.295369 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:49:03.047372 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:49:04.273020 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:49:05.077015 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:49:05.604015 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:49:06.041003 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:49:06.533003 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58166] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:18\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 18, referer: http://127.0.0.1/
+[Tue Jul 22 00:51:00.064102 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58214] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\Apache24\\htdocs\\index.php on line 17, referer: http://127.0.0.1/
+[Tue Jul 22 00:51:01.141753 2025] [php:error] [pid 33028:tid 1324] [client 127.0.0.1:58214] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\Apache24\\htdocs\\index.php on line 17, referer: http://127.0.0.1/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 25276:tid 428] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 00:54:21.112647 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 00:54:21.112647 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 00:54:21.112647 2025] [core:notice] [pid 25276:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 00:54:21.114648 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00418: Parent: Created child process 45652
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 00:54:22.011645 2025] [mpm_winnt:notice] [pid 45652:tid 420] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 00:54:29.243303 2025] [mpm_winnt:notice] [pid 33028:tid 440] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 25276:tid 428] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:01:46.726405 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:01:46.726405 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:01:46.726405 2025] [core:notice] [pid 25276:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:01:46.728407 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00418: Parent: Created child process 24500
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:01:47.682223 2025] [mpm_winnt:notice] [pid 24500:tid 444] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:01:49.892967 2025] [mpm_winnt:notice] [pid 45652:tid 420] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:09:07.623185 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 01:09:37.627744 2025] [mpm_winnt:notice] [pid 25276:tid 428] AH00431: Parent: Forcing termination of child process 24500
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:09:40.985024 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:09:40.985024 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:09:40.985024 2025] [core:notice] [pid 12912:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:09:40.989028 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00418: Parent: Created child process 39616
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:09:41.784796 2025] [mpm_winnt:notice] [pid 39616:tid 436] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 12912:tid 424] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:12:30.034326 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:12:30.034326 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:12:30.034326 2025] [core:notice] [pid 12912:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:12:30.037327 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00418: Parent: Created child process 24360
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:12:30.813326 2025] [mpm_winnt:notice] [pid 24360:tid 448] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:12:38.704594 2025] [mpm_winnt:notice] [pid 39616:tid 436] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:13:07.782935 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 01:13:37.795086 2025] [mpm_winnt:notice] [pid 12912:tid 424] AH00431: Parent: Forcing termination of child process 24360
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:14:31.533509 2025] [mpm_winnt:notice] [pid 18736:tid 444] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:14:31.533509 2025] [mpm_winnt:notice] [pid 18736:tid 444] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:14:31.533509 2025] [core:notice] [pid 18736:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:14:31.540510 2025] [mpm_winnt:notice] [pid 18736:tid 444] AH00418: Parent: Created child process 12796
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:14:32.328547 2025] [mpm_winnt:notice] [pid 12796:tid 420] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:14:32.332507 2025] [php:error] [pid 12796:tid 1324] [client 127.0.0.1:50350] PHP Parse error:  syntax error, unexpected identifier "ext_test", expecting "," or ";" in C:\\Apache24\\htdocs\\test_sqlite.php on line 3, referer: http://127.0.0.1/index.php
+[Tue Jul 22 01:20:24.423785 2025] [mpm_winnt:notice] [pid 18736:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 01:20:26.444121 2025] [mpm_winnt:notice] [pid 12796:tid 420] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:20:26.469045 2025] [mpm_winnt:notice] [pid 18736:tid 444] AH00430: Parent: Child process 12796 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlite3.dll' (tried: C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_sqlite3.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:20:33.702315 2025] [mpm_winnt:notice] [pid 13880:tid 440] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:20:33.702315 2025] [mpm_winnt:notice] [pid 13880:tid 440] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:20:33.702315 2025] [core:notice] [pid 13880:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:20:33.706313 2025] [mpm_winnt:notice] [pid 13880:tid 440] AH00418: Parent: Created child process 48028
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlite3.dll' (tried: C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_sqlite3.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:20:34.477610 2025] [mpm_winnt:notice] [pid 48028:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:23:58.246298 2025] [mpm_winnt:notice] [pid 13880:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 01:24:00.253965 2025] [mpm_winnt:notice] [pid 48028:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:24:00.278965 2025] [mpm_winnt:notice] [pid 13880:tid 440] AH00430: Parent: Child process 48028 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlite3.dll' (tried: C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_sqlite3.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:29:48.595308 2025] [mpm_winnt:notice] [pid 44752:tid 448] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:29:48.595308 2025] [mpm_winnt:notice] [pid 44752:tid 448] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:29:48.595308 2025] [core:notice] [pid 44752:tid 448] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:29:48.600279 2025] [mpm_winnt:notice] [pid 44752:tid 448] AH00418: Parent: Created child process 7588
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlite3.dll' (tried: C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_sqlite3.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:29:49.494761 2025] [mpm_winnt:notice] [pid 7588:tid 424] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:43:35.027145 2025] [mpm_winnt:notice] [pid 44752:tid 448] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 01:43:38.576696 2025] [mpm_winnt:notice] [pid 7588:tid 424] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:43:38.597680 2025] [mpm_winnt:notice] [pid 44752:tid 448] AH00430: Parent: Child process 7588 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:43:45.827767 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:43:45.827767 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:43:45.827767 2025] [core:notice] [pid 42364:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:43:45.832769 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00418: Parent: Created child process 28524
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:43:46.429769 2025] [mpm_winnt:notice] [pid 28524:tid 420] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:46:08.451998 2025] [php:error] [pid 28524:tid 1316] [client 127.0.0.1:51005] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:46:45.898911 2025] [php:error] [pid 28524:tid 1324] [client 127.0.0.1:51016] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:46:47.738596 2025] [php:error] [pid 28524:tid 1324] [client 127.0.0.1:51016] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 42364:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlite3.dll' (tried: C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_sqlite3.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:46:56.764455 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:46:56.764455 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:46:56.764455 2025] [core:notice] [pid 42364:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:46:56.767445 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00418: Parent: Created child process 5160
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlite3.dll' (tried: C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_sqlite3.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:46:57.723864 2025] [mpm_winnt:notice] [pid 5160:tid 444] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 01:47:00.194579 2025] [php:error] [pid 28524:tid 1316] [client 127.0.0.1:51030] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:00.267325 2025] [mpm_winnt:notice] [pid 28524:tid 420] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:47:01.773586 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:02.367584 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:02.897849 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:03.338892 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:03.586892 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:03.794893 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:04.002894 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:04.223472 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:04.390001 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:04.637998 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:05.821470 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51032] script 'C:/Apache24/htdocs/test_sqlite.php' not found or unable to stat, referer: http://127.0.0.1/index.php
+[Tue Jul 22 01:47:09.840078 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51045] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:10.698464 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51045] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:47:11.298969 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51045] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:25.123156 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:25.865158 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:26.519637 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:27.033637 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:27.314640 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:27.551635 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:27.837631 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:28.065633 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:28.332638 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:30.271246 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:48:30.955844 2025] [php:error] [pid 5160:tid 1340] [client 127.0.0.1:51072] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:79\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 79, referer: http://127.0.0.1/
+[Tue Jul 22 01:49:08.738647 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51073] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:78\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 78, referer: http://127.0.0.1/
+[Tue Jul 22 01:49:09.417657 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51073] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:78\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 78, referer: http://127.0.0.1/
+[Tue Jul 22 01:49:10.092740 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51073] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:78\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 78, referer: http://127.0.0.1/
+[Tue Jul 22 01:49:10.323738 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51073] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:78\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 78, referer: http://127.0.0.1/
+[Tue Jul 22 01:49:11.272756 2025] [php:error] [pid 5160:tid 1316] [client 127.0.0.1:51073] PHP Fatal error:  Uncaught Error: Class "SQLite3" not found in C:\\Apache24\\htdocs\\index.php:78\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 78, referer: http://127.0.0.1/
+[Tue Jul 22 01:55:45.376093 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 01:55:47.404209 2025] [mpm_winnt:notice] [pid 5160:tid 444] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 01:55:47.427213 2025] [mpm_winnt:notice] [pid 42364:tid 404] AH00430: Parent: Child process 5160 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:55:51.926171 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 01:55:51.927169 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 01:55:51.927169 2025] [core:notice] [pid 18116:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 01:55:51.931169 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00418: Parent: Created child process 27876
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 01:55:52.642203 2025] [mpm_winnt:notice] [pid 27876:tid 468] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 18116:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:01:52.599912 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:01:52.599912 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:01:52.599912 2025] [core:notice] [pid 18116:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:01:52.601911 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00418: Parent: Created child process 33900
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:/Apache24/php/ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:01:53.483032 2025] [mpm_winnt:notice] [pid 33900:tid 444] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:01:54.498106 2025] [mpm_winnt:notice] [pid 27876:tid 468] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 18116:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:03:18.300520 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:03:18.300520 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:03:18.300520 2025] [core:notice] [pid 18116:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:03:18.303520 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00418: Parent: Created child process 34340
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:03:19.258098 2025] [mpm_winnt:notice] [pid 34340:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:03:27.573569 2025] [mpm_winnt:notice] [pid 33900:tid 444] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 18116:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:05:13.464439 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:05:13.464439 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:05:13.464439 2025] [core:notice] [pid 18116:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:05:13.467437 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00418: Parent: Created child process 46148
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:05:14.413315 2025] [mpm_winnt:notice] [pid 46148:tid 448] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:05:16.286813 2025] [mpm_winnt:notice] [pid 34340:tid 428] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 18116:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:06:18.141987 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:06:18.141987 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:06:18.141987 2025] [core:notice] [pid 18116:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:06:18.145977 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00418: Parent: Created child process 26892
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:06:19.080596 2025] [mpm_winnt:notice] [pid 26892:tid 468] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:06:23.918594 2025] [mpm_winnt:notice] [pid 46148:tid 448] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 18116:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:08:34.947800 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:08:34.947800 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:08:34.947800 2025] [core:notice] [pid 18116:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:08:34.950799 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00418: Parent: Created child process 50592
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:08:35.858598 2025] [mpm_winnt:notice] [pid 50592:tid 468] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:08:43.263489 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 02:08:45.972226 2025] [mpm_winnt:notice] [pid 50592:tid 468] AH00363: Child: Terminating 63 threads that failed to exit.
+[Tue Jul 22 02:08:45.972226 2025] [mpm_winnt:notice] [pid 50592:tid 468] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 02:08:45.996193 2025] [mpm_winnt:notice] [pid 18116:tid 404] AH00430: Parent: Child process 50592 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:08:57.495547 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:08:57.495547 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:08:57.495547 2025] [core:notice] [pid 33924:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:08:57.499549 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00418: Parent: Created child process 46204
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo' (tried: C:/Apache24/php/ext\\pdo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:/Apache24/php/ext\\php_pdo_sqlite.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_sqlite.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:08:58.182558 2025] [mpm_winnt:notice] [pid 46204:tid 420] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 33924:tid 412] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:35:22.812645 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:35:22.812645 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:35:22.812645 2025] [core:notice] [pid 33924:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:35:22.814646 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00418: Parent: Created child process 29528
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:35:23.622881 2025] [mpm_winnt:notice] [pid 29528:tid 456] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:35:27.692601 2025] [mpm_winnt:notice] [pid 46204:tid 420] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 02:40:14.175726 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 02:40:16.195435 2025] [mpm_winnt:notice] [pid 29528:tid 456] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 02:40:16.221708 2025] [mpm_winnt:notice] [pid 33924:tid 412] AH00430: Parent: Child process 29528 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:40:20.644870 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:40:20.644870 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:40:20.644870 2025] [core:notice] [pid 28996:tid 452] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:40:20.648869 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00418: Parent: Created child process 31360
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:40:21.521424 2025] [mpm_winnt:notice] [pid 31360:tid 428] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 28996:tid 452] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_mysql.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:42:06.418335 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 02:42:06.418335 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 02:42:06.418335 2025] [core:notice] [pid 28996:tid 452] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 02:42:06.422335 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00418: Parent: Created child process 22680
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable), C:/Apache24/php/ext\\php_php_pdo_mysql.dll.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 02:42:07.317510 2025] [mpm_winnt:notice] [pid 22680:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 02:42:11.713387 2025] [mpm_winnt:notice] [pid 31360:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 02:54:52.427006 2025] [php:error] [pid 22680:tid 1312] [client ::1:59776] PHP Fatal error:  Uncaught Error: Call to undefined function apache_get_version() in C:\\Apache24\\htdocs\\index.php:25\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 25
+[Tue Jul 22 03:01:36.853528 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 03:01:38.875174 2025] [mpm_winnt:notice] [pid 22680:tid 436] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 03:01:38.897729 2025] [mpm_winnt:notice] [pid 28996:tid 452] AH00430: Parent: Child process 22680 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:01:51.993300 2025] [mpm_winnt:notice] [pid 8664:tid 424] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:01:51.993300 2025] [mpm_winnt:notice] [pid 8664:tid 424] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:01:51.993300 2025] [core:notice] [pid 8664:tid 424] AH00094: Command line: 'c:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:01:52.006301 2025] [mpm_winnt:notice] [pid 8664:tid 424] AH00418: Parent: Created child process 2732
+Apache server interrupted...
+able to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:01:54.389780 2025] [mpm_winnt:notice] [pid 2732:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:03:53.273303 2025] [mpm_winnt:notice] [pid 8664:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Jul 22 03:03:55.289953 2025] [mpm_winnt:notice] [pid 2732:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 03:03:55.311922 2025] [mpm_winnt:notice] [pid 8664:tid 424] AH00430: Parent: Child process 2732 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:09:39.391332 2025] [mpm_winnt:notice] [pid 38640:tid 412] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:09:39.391332 2025] [mpm_winnt:notice] [pid 38640:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:09:39.391332 2025] [core:notice] [pid 38640:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:09:39.398338 2025] [mpm_winnt:notice] [pid 38640:tid 412] AH00418: Parent: Created child process 48248
+Apache server interrupted...
+able to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:09:45.291607 2025] [mpm_winnt:notice] [pid 48248:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:13:25.035849 2025] [mpm_winnt:notice] [pid 38640:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 48248:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 03:13:27.081214 2025] [mpm_winnt:notice] [pid 38640:tid 412] AH00430: Parent: Child process 48248 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:14:05.899770 2025] [mpm_winnt:notice] [pid 31612:tid 412] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:14:05.899770 2025] [mpm_winnt:notice] [pid 31612:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:14:05.899770 2025] [core:notice] [pid 31612:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:14:05.905765 2025] [mpm_winnt:notice] [pid 31612:tid 412] AH00418: Parent: Created child process 33464
+Apache server shutdown initiated...
+ load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:14:10.172312 2025] [mpm_winnt:notice] [pid 33464:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:14:15.710915 2025] [php:error] [pid 33464:tid 1272] [client ::1:60353] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\index.php:36\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 36
+[Tue Jul 22 03:14:17.231607 2025] [php:error] [pid 33464:tid 1272] [client ::1:60353] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\index.php:36\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 36
+[Tue Jul 22 03:14:18.175218 2025] [php:error] [pid 33464:tid 1272] [client ::1:60353] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\index.php:36\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 36
+[Tue Jul 22 03:14:18.583998 2025] [php:error] [pid 33464:tid 1272] [client ::1:60353] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\index.php:36\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\index.php on line 36
+[Tue Jul 22 03:25:11.223085 2025] [mpm_winnt:notice] [pid 31612:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 03:25:27.128326 2025] [core:warn] [pid 36220:tid 428] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:25:30.802199 2025] [mpm_winnt:notice] [pid 36220:tid 428] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:25:30.802199 2025] [mpm_winnt:notice] [pid 36220:tid 428] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:25:30.802199 2025] [core:notice] [pid 36220:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:25:30.817202 2025] [mpm_winnt:notice] [pid 36220:tid 428] AH00418: Parent: Created child process 19580
+Apache server interrupted...
+able to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:25:35.737180 2025] [mpm_winnt:notice] [pid 19580:tid 432] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:25:39.696809 2025] [mpm_winnt:notice] [pid 33464:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 03:26:22.719948 2025] [mpm_winnt:notice] [pid 36220:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server shutdown initiated...
+[Tue Jul 22 03:26:47.465282 2025] [mpm_winnt:notice] [pid 19580:tid 432] AH00364: Child: All worker threads have exited.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+[Tue Jul 22 03:27:41.918060 2025] [core:warn] [pid 18376:tid 436] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:27:43.946307 2025] [mpm_winnt:notice] [pid 18376:tid 436] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:27:43.946307 2025] [mpm_winnt:notice] [pid 18376:tid 436] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:27:43.946307 2025] [core:notice] [pid 18376:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:27:43.952337 2025] [mpm_winnt:notice] [pid 18376:tid 436] AH00418: Parent: Created child process 42092
+Apache server interrupted...
+able to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:27:47.713982 2025] [mpm_winnt:notice] [pid 42092:tid 472] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:32:05.288109 2025] [mpm_winnt:notice] [pid 18376:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server shutdown initiated...
+[Tue Jul 22 03:32:07.301320 2025] [mpm_winnt:notice] [pid 42092:tid 472] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 03:32:07.324282 2025] [mpm_winnt:notice] [pid 18376:tid 436] AH00430: Parent: Child process 42092 exited successfully.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:34:36.204622 2025] [mpm_winnt:notice] [pid 44456:tid 424] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:34:36.204622 2025] [mpm_winnt:notice] [pid 44456:tid 424] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:34:36.204622 2025] [core:notice] [pid 44456:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:34:36.213623 2025] [mpm_winnt:notice] [pid 44456:tid 424] AH00418: Parent: Created child process 43172
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:34:41.005765 2025] [mpm_winnt:notice] [pid 43172:tid 428] AH00354: Child: Starting 64 worker threads.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+[Tue Jul 22 03:38:01.202202 2025] [core:warn] [pid 46716:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:38:10.040172 2025] [mpm_winnt:notice] [pid 46716:tid 424] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:38:10.040172 2025] [mpm_winnt:notice] [pid 46716:tid 424] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:38:10.040172 2025] [core:notice] [pid 46716:tid 424] AH00094: Command line: 'bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:38:10.047171 2025] [mpm_winnt:notice] [pid 46716:tid 424] AH00418: Parent: Created child process 25360
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:38:14.697161 2025] [mpm_winnt:notice] [pid 25360:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:53:23.895192 2025] [core:warn] [pid 5132:tid 412] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:53:23.929234 2025] [mpm_winnt:notice] [pid 5132:tid 412] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:53:23.929234 2025] [mpm_winnt:notice] [pid 5132:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:53:23.929234 2025] [core:notice] [pid 5132:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 03:53:23.934209 2025] [mpm_winnt:notice] [pid 5132:tid 412] AH00418: Parent: Created child process 9960
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:53:24.495197 2025] [mpm_winnt:notice] [pid 9960:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 03:53:44.271162 2025] [php:error] [pid 9960:tid 1316] [client 127.0.0.1:54329] PHP Parse error:  syntax error, unexpected identifier "\xe2\x9d\x81E" in C:\\Apache24\\htdocs\\test_mysql_final.php on line 3
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 48304:tid 412] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:58:18.648765 2025] [mpm_winnt:notice] [pid 48304:tid 412] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 03:58:18.648765 2025] [mpm_winnt:notice] [pid 48304:tid 412] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 03:58:18.649762 2025] [core:notice] [pid 48304:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 03:58:18.652757 2025] [mpm_winnt:notice] [pid 48304:tid 412] AH00418: Parent: Created child process 10504
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 03:58:19.460134 2025] [mpm_winnt:notice] [pid 10504:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 04:02:37.912858 2025] [core:warn] [pid 9792:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:02:37.958859 2025] [mpm_winnt:notice] [pid 9792:tid 432] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 04:02:37.958859 2025] [mpm_winnt:notice] [pid 9792:tid 432] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 04:02:37.958859 2025] [core:notice] [pid 9792:tid 432] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Jul 22 04:02:37.966858 2025] [mpm_winnt:notice] [pid 9792:tid 432] AH00418: Parent: Created child process 35704
+Apache server shutdown initiated...
+ load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:02:38.687863 2025] [mpm_winnt:notice] [pid 35704:tid 444] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 04:04:45.321954 2025] [mpm_winnt:notice] [pid 9792:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 04:05:02.393875 2025] [mpm_winnt:notice] [pid 35704:tid 444] AH00364: Child: All worker threads have exited.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+[Tue Jul 22 04:08:32.683288 2025] [core:warn] [pid 48376:tid 456] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:10:42.253749 2025] [mpm_winnt:notice] [pid 48376:tid 456] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 04:10:42.253749 2025] [mpm_winnt:notice] [pid 48376:tid 456] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 04:10:42.253749 2025] [core:notice] [pid 48376:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 04:10:42.259742 2025] [mpm_winnt:notice] [pid 48376:tid 456] AH00418: Parent: Created child process 43972
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:10:46.894732 2025] [mpm_winnt:notice] [pid 43972:tid 448] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 04:11:26.161266 2025] [core:warn] [pid 27624:tid 452] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:11:30.427902 2025] [mpm_winnt:notice] [pid 27624:tid 452] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 04:11:30.427902 2025] [mpm_winnt:notice] [pid 27624:tid 452] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 04:11:30.428902 2025] [core:notice] [pid 27624:tid 452] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Jul 22 04:11:30.440900 2025] [mpm_winnt:notice] [pid 27624:tid 452] AH00418: Parent: Created child process 19416
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:11:34.153840 2025] [mpm_winnt:notice] [pid 19416:tid 440] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 04:27:24.148586 2025] [core:warn] [pid 45280:tid 420] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:27:34.669889 2025] [mpm_winnt:notice] [pid 45280:tid 420] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 04:27:34.669889 2025] [mpm_winnt:notice] [pid 45280:tid 420] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 04:27:34.669889 2025] [core:notice] [pid 45280:tid 420] AH00094: Command line: 'c:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 04:27:34.674856 2025] [mpm_winnt:notice] [pid 45280:tid 420] AH00418: Parent: Created child process 41676
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:27:38.439539 2025] [mpm_winnt:notice] [pid 41676:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 04:30:07.205102 2025] [core:warn] [pid 26428:tid 420] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:35:48.598641 2025] [mpm_winnt:notice] [pid 26428:tid 420] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 04:35:48.598641 2025] [mpm_winnt:notice] [pid 26428:tid 420] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 04:35:48.598641 2025] [core:notice] [pid 26428:tid 420] AH00094: Command line: 'c:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 04:35:48.603647 2025] [mpm_winnt:notice] [pid 26428:tid 420] AH00418: Parent: Created child process 38184
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:/Apache24/php/ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_mysqli.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:/Apache24/php/ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysql.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 04:35:51.964266 2025] [mpm_winnt:notice] [pid 38184:tid 432] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 04:35:51.970270 2025] [php:error] [pid 38184:tid 1288] [client ::1:60965] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\test_db.php:36\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\test_db.php on line 36
+[Tue Jul 22 04:35:51.970270 2025] [php:error] [pid 38184:tid 1304] [client ::1:60920] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\test_db.php:36\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\test_db.php on line 36
+[Tue Jul 22 04:38:37.601418 2025] [php:error] [pid 38184:tid 1288] [client ::1:61105] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\Apache24\\htdocs\\test_db.php:57\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\test_db.php on line 57
+[Tue Jul 22 17:05:23.487946 2025] [core:warn] [pid 28992:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysqlite' (tried: C:/Apache24/php/ext\\pdo_mysqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 17:05:29.464615 2025] [mpm_winnt:notice] [pid 28992:tid 424] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 17:05:29.464615 2025] [mpm_winnt:notice] [pid 28992:tid 424] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 17:05:29.464615 2025] [core:notice] [pid 28992:tid 424] AH00094: Command line: 'c:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 17:05:29.475614 2025] [mpm_winnt:notice] [pid 28992:tid 424] AH00418: Parent: Created child process 11956
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysqlite' (tried: C:/Apache24/php/ext\\pdo_mysqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 17:05:31.563207 2025] [mpm_winnt:notice] [pid 11956:tid 428] AH00354: Child: Starting 64 worker threads.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+[Tue Jul 22 17:12:57.684790 2025] [core:warn] [pid 33284:tid 444] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysqlite' (tried: C:/Apache24/php/ext\\pdo_mysqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 17:18:57.831796 2025] [mpm_winnt:notice] [pid 33284:tid 444] AH00455: Apache/2.4.64 (Win64) PHP/8.4.10 configured -- resuming normal operations
+[Tue Jul 22 17:18:57.831796 2025] [mpm_winnt:notice] [pid 33284:tid 444] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 17:18:57.831796 2025] [core:notice] [pid 33284:tid 444] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Jul 22 17:18:57.839794 2025] [mpm_winnt:notice] [pid 33284:tid 444] AH00418: Parent: Created child process 47188
+Apache server interrupted...
+able to load dynamic library 'pdo_mysqlite' (tried: C:/Apache24/php/ext\\pdo_mysqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_pdo_mysqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:/Apache24/php/ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:/Apache24/php/ext\\php_sqlite3.dll (La proc\xc3\xa9dure sp\xc3\xa9cifi\xc3\xa9e est introuvable)) in Unknown on line 0
+[Tue Jul 22 17:19:01.510992 2025] [mpm_winnt:notice] [pid 47188:tid 432] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 17:20:29.339695 2025] [mpm_winnt:notice] [pid 33284:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 22 17:20:31.358037 2025] [mpm_winnt:notice] [pid 47188:tid 432] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 17:20:31.396997 2025] [mpm_winnt:notice] [pid 33284:tid 444] AH00430: Parent: Child process 47188 exited successfully.
+[Tue Jul 22 17:23:57.255762 2025] [mpm_winnt:notice] [pid 37780:tid 428] AH00455: Apache/2.4.64 (Win64) PHP/8.3.23 configured -- resuming normal operations
+[Tue Jul 22 17:23:57.255762 2025] [mpm_winnt:notice] [pid 37780:tid 428] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 17:23:57.255762 2025] [core:notice] [pid 37780:tid 428] AH00094: Command line: 'c:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 17:23:57.259799 2025] [mpm_winnt:notice] [pid 37780:tid 428] AH00418: Parent: Created child process 25476
+[Tue Jul 22 17:23:58.132765 2025] [mpm_winnt:notice] [pid 25476:tid 476] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 17:28:28.168394 2025] [core:warn] [pid 42440:tid 448] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 17:28:28.225389 2025] [mpm_winnt:notice] [pid 42440:tid 448] AH00455: Apache/2.4.64 (Win64) PHP/8.3.23 configured -- resuming normal operations
+[Tue Jul 22 17:28:28.225389 2025] [mpm_winnt:notice] [pid 42440:tid 448] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 17:28:28.225389 2025] [core:notice] [pid 42440:tid 448] AH00094: Command line: 'c:\\Apache24\\bin\\httpd -d C:/Apache24'
+[Tue Jul 22 17:28:28.229397 2025] [mpm_winnt:notice] [pid 42440:tid 448] AH00418: Parent: Created child process 21692
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\php\\ext\\pdo_sqlite (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_pdo_sqlite.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\\php\\ext\\sqlite3 (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\php\\ext\\php_sqlite3.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Tue Jul 22 17:28:29.185414 2025] [mpm_winnt:notice] [pid 21692:tid 480] AH00354: Child: Starting 64 worker threads.
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+(OS 5)Acces refuse.  : AH10014: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+(OS 5)Acces refuse.  : AH10012: Failed to open the 'Apache2.4' service
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 3032:tid 420] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 22 20:09:20.585178 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00455: Apache/2.4.64 (Win64) configured -- resuming normal operations
+[Tue Jul 22 20:09:20.585178 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 20:09:20.585178 2025] [core:notice] [pid 3032:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 20:09:20.590179 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00418: Parent: Created child process 45928
+[Tue Jul 22 20:09:21.151227 2025] [mpm_winnt:notice] [pid 45928:tid 420] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3032:tid 420] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jul 22 20:20:37.244583 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00455: Apache/2.4.64 (Win64) configured -- resuming normal operations
+[Tue Jul 22 20:20:37.244583 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 20:20:37.244583 2025] [core:notice] [pid 3032:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 20:20:37.246587 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00418: Parent: Created child process 34092
+[Tue Jul 22 20:20:38.212641 2025] [mpm_winnt:notice] [pid 34092:tid 456] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 22 20:20:39.225523 2025] [mpm_winnt:notice] [pid 45928:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3032:tid 420] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jul 22 20:22:29.659946 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00455: Apache/2.4.64 (Win64) configured -- resuming normal operations
+[Tue Jul 22 20:22:29.660946 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00456: Apache Lounge VS17 Server built: Jul  9 2025 15:29:50
+[Tue Jul 22 20:22:29.660946 2025] [core:notice] [pid 3032:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 22 20:22:29.662949 2025] [mpm_winnt:notice] [pid 3032:tid 420] AH00418: Parent: Created child process 47420
+[Tue Jul 22 20:22:30.199992 2025] [mpm_winnt:notice] [pid 34092:tid 456] AH00364: Child: All worker threads have exited.
+[Tue Jul 22 20:22:30.428999 2025] [mpm_winnt:notice] [pid 47420:tid 444] AH00354: Child: Starting 64 worker threads.

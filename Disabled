@@ -1,0 +1,6 @@
+extension=mysqli 
+extension=pdo_mysql 
+extension=mysqli 
+extension=pdo_mysql 
+extension=mysqli 
+extension=pdo_mysql 
