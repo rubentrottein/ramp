@@ -4,31 +4,13 @@
 
 # 🚀 RAMP – Serveur PHP/SQLite autonome
 
-Bienvenue dans **RAMP** (comme WAMP, mais avec un R pour Romain) — une mini-plateforme de développement web **portable**, **sans installation**, basée sur **Apache + PHP + SQLite**, pour créer, tester et administrer des projets localement sans dépendre de Windows ou de services externes.
+Bienvenue dans **RAMP** (Ruben Apache MySQL and PhP) — une mini-plateforme de développement web **portable**, **sans installation**, basée sur **Apache + PHP + SQLite**, pour créer, tester et administrer des projets localement sans dépendre de Windows ou de services externes.
 
 ---
 
 ## 🧩 Contenu du projet
 
-C:/
-└── Apache24/
-├── bin/
-├── conf/
-├── htdocs/
-│ ├── index.html
-│ ├── index.php
-│ ├── info.php
-│ ├── test.php
-│ ├── todo.php
-│ ├── sqlite.php
-│ ├── inc/
-│ │ ├── header.php
-│ │ ├── footer.php
-│ │ └── sqlite_utils.php
-│ └── databases/
-│ └── todolist.db
-├── start_server.bat
-└── stop_server.bat
+![Arborescence](image-1.png)
 
 
 ---
@@ -94,7 +76,7 @@ Je te prépare ça dès que tu veux.
 
 ## 📁 Crédits
 
-Projet personnel de [Romain] – Pour apprendre, tester et prototyper localement sans prise de tête.
+Projet personnel de rubentrottein@github.com – Pour apprendre, tester et prototyper localement sans prise de tête.
 
 ---
 
