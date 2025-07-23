@@ -3,10 +3,16 @@ SETLOCAL ENABLEEXTENSIONS
 
 REM Définir les chemins relatifs
 SET "BASE_DIR=%~dp0"
-SET "APACHE_DIR=%BASE_DIR%Apache24"
+SET "APACHE_DIR=%BASE_DIR%"
 SET "APACHE_BIN=%APACHE_DIR%\bin"
 SET "HTTPD_EXE=%APACHE_BIN%\httpd.exe"
 SET "HTTPD_CONF=%APACHE_DIR%\conf\httpd.conf"
+
+IF NOT EXIST "%HTTPD_EXE%" (
+    echo ❌ ERREUR : httpd.exe introuvable dans "%HTTPD_EXE%"
+    pause
+    exit /b 1
+)
 
 :MENU
 cls
@@ -29,11 +35,14 @@ goto MENU
 
 :START
 echo 🟢 Lancement du serveur Apache...
-"%HTTPD_EXE%" -k start -f "%HTTPD_CONF%"
+echo Une nouvelle fenêtre de commande va s'ouvrir. Si Apache ne démarre pas, lis bien le message d'erreur dans cette fenêtre.
+SET SRVROOT=%BASE_DIR:\=/%
+start "" "%HTTPD_EXE%" -f "%HTTPD_CONF%"
 IF %ERRORLEVEL% EQU 0 (
     echo ✅ Apache démarre avec succès.
 ) ELSE (
     echo ❌ Erreur lors du démarrage.
+    pause
 )
 timeout /t 2 >nul
 goto MENU
